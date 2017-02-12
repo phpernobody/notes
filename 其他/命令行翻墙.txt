@@ -1,0 +1,2 @@
+export http_proxy=http://duotai:pRS1LjrGj3c@conrad.h.xduotai.com:15739
+export https_proxy=$http_proxy

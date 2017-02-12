@@ -1,0 +1,5 @@
+1、可能用到工具
+netcat：用于网络连接调试
+https://en.wikipedia.org/wiki/Netcat
+
+2、

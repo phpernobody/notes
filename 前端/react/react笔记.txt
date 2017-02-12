@@ -1,0 +1,7 @@
+阮一峰入门笔记
+
+http://www.ruanyifeng.com/blog/2015/03/react.html
+
+
+官网文档
+https://facebook.github.io/react/docs/tutorial.html

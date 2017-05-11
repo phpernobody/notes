@@ -1,0 +1,6 @@
+
+
+input 获得焦点的时候设置 document.body.scrollTop = document.body.scrollHeight;亲测有效
+
+https://segmentfault.com/a/1190000006243816
+

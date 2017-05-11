@@ -1,8 +1,6 @@
-npm常用指令 [参考文档](http://www.cnblogs.com/PeunZhang/p/5553574.html)
-
 http://www.ruanyifeng.com/blog/2016/01/npm-install.html
 
-[脚本](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)
+(脚本) [http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html]
 
 ###NPM基础知识点
 1. npm 模块仓库提供了一个查询服务，叫做 registry 。以 npmjs.org 为例，它的查询服务网址是 **https://registry.npmjs.org/**。这个网址后面跟上模块名，就会得到一个 JSON 对象，里面是该模块所有版本的信息。比如，访问 **https://registry.npmjs.org/react**，就会看到 react 模块所有版本的信息。如果模块后面再加上版本名，例如：**https://registry.npmjs.org/react/v0.14.6**就可以看到该版本的详细信息。

@@ -105,3 +105,8 @@ git bisect reset
 - 删除分支：
 	- git branch -d [branchName]
 
+21、配置颜色
+git config --global color.status auto  
+git config --global color.diff auto  
+git config --global color.branch auto  
+git config --global color.interactive auto  

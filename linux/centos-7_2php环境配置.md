@@ -82,38 +82,6 @@
 
 
 ## 常用命令行
-#### 查看linux版本
-`lsb_release -a`
-
-#### 定时器crond
-
-###### 查看是否运行
-`service crond status`
-
-###### 启动/重启/关闭
-`service crond start/restart/stop`
-
-###### 配置文件
-`/etc目录下面存在cron.hourly,cron.daily,cron.weekly,cron.monthly,cron.d五个目录和crontab,cron.deny二个文件`
-
-`linux的cron服务是每隔一分钟去读取一次/var/spool/cron,/etc/crontab,/etc/cron.d下面所有的内容.`
-
-###### 用法
-crontab -u [用户名] [对应的操作，如下]
-
-- –e : 修改 crontab 文件，如果文件不存在会自动创建。 
-- –l : 显示 crontab 文件。 
-- -r : 删除 crontab 文件。
-- -ir : 删除 crontab 文件前提醒用户。
-
-`minute hour day-of-month month-of-year day-of-week commands` 
-
-除了数字还有几个特殊的符号："*"、"/"和"-"、","
-
-*代表所有的取值范围内的数字
-"/"代表每的意思,"/5"表示每5个单位
-"-"代表从某个数字到某个数字
-","分开几个离散的数字
 
 
 #### 安装phantomjs

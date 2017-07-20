@@ -1,8 +1,45 @@
 # node快速搭建
 
 ## 参考
-
 [express](http://www.expressjs.com.cn/)
+
+## 好用的nodejs插件
+- cheerio：nodejs上的jquery
+- mongodb：mongodb数据库驱动
+- mongoose：node.js异步环境下对mongodb进行便捷操作的对象模型工具，依于mongodb
+- passport：快速建立passport-user结构的用户系统
+- bluebird：实现promise的库
+- lodash：常用工具库
+- moment：轻量级用于处理日期的工具，除了对日期进行格式化以外，你还能够对日期进行操作，验证，解析
+- skipper：一款Sails衍生的处理多文件上传的组件，支持上传文件到本地或者远端服务器，如果默认adapter没有你需要的服务，你还能够自定义一套adapter满足你的需求
+- mocha：单元测试
+- pm2：生产环境下的进程管理工具
+- supervisor：适用于开发环境下的进程管理
+- es-checker：检查环境对es6的支持情况
+
+## 进程管理
+#### supervisor
+###### 安装
+`npm -g install supervisor`
+
+###### 参数
+- `-w|--watch <watchItems>`：//要监控的文件夹或者js文件，默认为"."
+- `-i|--ignore <ignoreItems>`：//要忽略监视的文件或js文件
+- `-p|--poll-interval <milliseconds>`：//监控文件变化的时间间隔（周期），默认为nodejs内置时间
+- `-e|--extensions <extensions>`：//要监控的文件扩展名，默认为'node|js'
+- `-x|--exec <executable>`：//要执行的主应用程序，默认为'node'
+- `--debug` //开启debug模式
+- `--debug-brk[=port]`
+- `--harmony`
+- `-n|--no-restart-on error|exit`
+- `--force-watch`
+- `-h|--help|-?`：//帮助
+- `-q|--quiet`：//安静模式，不再显示debug信息
+- `-V|--verbose`
+
+###### 启动
+`supervisor [params] <appFile>`
+
 
 ## express
 1. 安装：`npm install express --save`

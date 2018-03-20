@@ -1,11 +1,7 @@
 # notes
 
-## 好的项目
+## node项目
 nodejs创建桌面应用：[node-webkit](https://nwjs.io/)
-
-饿了么：[饿了么小程序](https://github.com/bailicangdu/node-elm)
-
-商城后台：[商城后台](https://github.com/bailicangdu/node-elm)
 
 ## 教程
 [nodejs+mongo](https://github.com/nswbmw/N-blog)
